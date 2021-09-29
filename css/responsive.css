@@ -76,9 +76,9 @@
 }
 @media (max-width: 400px) {
   input {
-    max-width: 50%;
+    max-width: 310px;
   }
   .send {
-    max-width: 50%;
+    max-width: 310px;
   }
 }
