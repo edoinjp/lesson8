@@ -5,10 +5,10 @@
 }
 @media (max-width: 1150px) {
   .map {
-    max-width: 100%;
+    max-width: 90%;
   }
   .user-area {
-    width: 100%;
+    width: 90%;
     flex-wrap: wrap;
   }
 }
@@ -24,11 +24,11 @@
   }
   .infop {
     margin: 10px auto;
-    max-width: 100%;
+    max-width: 90%;
   }
   .secondinfob {
     margin: 10px auto;
-    max-width: 100%;
+    max-width: 90%;
   }
   .triple-info {
     max-width: 100%;
@@ -39,14 +39,19 @@
     margin: 0 auto;
     align-items: center;
   }
-  .headimg {
-    max-width: 100%;
+  .body {
+    width: 100%;
   }
-  body {
-    max-width: 100%;
+
+  .footer-content {
+    max-width: 90%;
   }
-  footer {
-    max-width: 100%;
+  .footer {
     height: auto;
+  }
+}
+@media (max-width: 750px) {
+  .textarea {
+    max-width: auto;
   }
 }
