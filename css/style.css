@@ -208,7 +208,7 @@ input:focus {
 /* footer */
 .footer {
   color: white;
-  height: 395px;
+
   background-color: black;
   max-width: 100%;
 }
@@ -242,7 +242,6 @@ input:focus {
 }
 .footernav {
   width: 650px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -252,12 +251,6 @@ input:focus {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 150px;
-}
-.footercc {
-  margin-left: 75px;
-}
-.footercc1 {
-  margin-right: 130px;
 }
 .ulli {
   margin-top: 15px;
