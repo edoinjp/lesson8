@@ -86,7 +86,17 @@ input[type="text"] {
   background-color: #e8e8e8;
   border: none;
 }
+input[type="email"] {
+  width: 352px;
+  height: 60px;
+  background-color: #e8e8e8;
+  border: none;
+}
 input[type="text"]::placeholder {
+  padding-left: 10px;
+  color: #cecece;
+}
+input[type="email"]::placeholder {
   padding-left: 10px;
   color: #cecece;
 }
