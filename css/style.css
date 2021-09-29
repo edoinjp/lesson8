@@ -254,6 +254,8 @@ input:focus {
   color: gray;
   margin-top: 20px;
   font-weight: bold;
+  max-width: 220px;
+  height: 83px;
 }
 .footer-content {
   display: flex;
