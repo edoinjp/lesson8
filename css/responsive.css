@@ -1,0 +1,52 @@
+@media (max-width: 1250px) {
+  .navigation {
+    display: none;
+  }
+}
+@media (max-width: 1150px) {
+  .map {
+    max-width: 100%;
+  }
+  .user-area {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1100px) {
+  .img33 {
+    max-width: 70%;
+    margin: 0 auto;
+    height: auto;
+    flex-direction: column;
+  }
+  .midimg {
+    margin: 10px 0;
+  }
+  .infop {
+    margin: 10px auto;
+    max-width: 100%;
+  }
+  .secondinfob {
+    margin: 10px auto;
+    max-width: 100%;
+  }
+  .triple-info {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  .cont {
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .headimg {
+    max-width: 100%;
+  }
+  body {
+    max-width: 100%;
+  }
+  footer {
+    max-width: 100%;
+    height: auto;
+  }
+}

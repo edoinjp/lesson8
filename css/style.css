@@ -173,7 +173,6 @@ input:focus {
   width: 220px;
   height: 42px;
   flex-direction: column;
-  align-content: center;
   padding-left: 30px;
   margin-top: 5px;
   font-size: 14px;
