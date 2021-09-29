@@ -67,15 +67,18 @@
   }
 }
 @media (max-width: 750px) {
-  .textarea {
-    max-width: 60%;
-  }
   .footernav {
     max-width: auto;
   }
+  .textarea1 {
+    max-width: 100%;
+  }
 }
-@media (max-width: 600px) {
-  .textarea {
-    max-width: 40%;
+@media (max-width: 400px) {
+  input {
+    max-width: 50%;
+  }
+  .send {
+    max-width: 50%;
   }
 }

@@ -65,6 +65,9 @@
   font-size: 42px;
   font-weight: 900;
 }
+.textarea {
+  max-width: auto;
+}
 /* map */
 .map {
   width: 1088px;
