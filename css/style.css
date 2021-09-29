@@ -245,8 +245,6 @@ input:focus {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
-  margin-top: 50px;
 }
 .footernav {
   width: 650px;
