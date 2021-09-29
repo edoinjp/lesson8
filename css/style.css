@@ -181,10 +181,11 @@ input:focus {
   max-width: 220px;
   height: 42px;
   flex-direction: column;
-  padding-left: 30px;
+
   margin-top: 5px;
   font-size: 14px;
   color: gray;
+  align-items: center;
 }
 
 /*  3 img section*/
