@@ -5,6 +5,9 @@
   .nav {
     max-width: 100%;
   }
+  .burger {
+    display: block;
+  }
 }
 @media (max-width: 1150px) {
   .map {
@@ -67,14 +70,12 @@
   .textarea {
     max-width: 60%;
   }
+  .footernav {
+    max-width: auto;
+  }
 }
 @media (max-width: 600px) {
   .textarea {
     max-width: 40%;
-  }
-}
-@media (max-width: 0px) {
-  .textarea {
-    max-width: 30%;
   }
 }

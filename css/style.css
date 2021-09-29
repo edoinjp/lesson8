@@ -1,7 +1,7 @@
 .headimg {
   display: flex;
   margin: 0 auto;
-  max-width: auto;
+  max-width: 100%;
   height: 324px;
   color: aliceblue;
   background-image: url("../image/headimg.jpg");
@@ -17,7 +17,15 @@
   justify-content: space-between;
   margin: 20px auto 0;
 }
-
+.burger {
+  display: none;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.fa-bars {
+  color: white;
+}
 .li {
   color: white;
 }
@@ -87,7 +95,7 @@ input[type="text"]::placeholder {
   padding-left: 5px;
 }
 .send {
-  width: 352px;
+  max-width: 352px;
   height: 60px;
   background-color: #5863f8;
   color: white;
@@ -132,7 +140,7 @@ input:focus {
   border: none;
 }
 .user-area {
-  width: 1120px;
+  max-width: 1120px;
   display: flex;
   margin: 0 auto;
   flex-direction: row;
@@ -147,7 +155,7 @@ input:focus {
 .imgbox {
   display: flex;
   flex-direction: column;
-  width: 242px;
+  max-width: 242px;
   height: 182px;
   align-items: center;
 
@@ -170,7 +178,7 @@ input:focus {
 }
 .p {
   display: flex;
-  width: 220px;
+  max-width: 220px;
   height: 42px;
   flex-direction: column;
   padding-left: 30px;
@@ -244,13 +252,16 @@ input:focus {
   width: 650px;
   display: flex;
   flex-direction: row;
+
   justify-content: space-between;
 }
 .footer-cc {
+  max-width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 150px;
+  margin-bottom: 10px;
 }
 .ulli {
   margin-top: 15px;
