@@ -97,6 +97,9 @@ input[type="text"]::placeholder {
 input:focus {
   outline: none;
 }
+.textarea:focus {
+  outline: #e8e8e8;
+}
 
 ::placeholder {
   margin-left: 10px;
